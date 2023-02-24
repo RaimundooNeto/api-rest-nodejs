@@ -6,6 +6,14 @@ import axios from 'axios'
 export async function botConversaRoutes(app: FastifyInstance) {
   const baseURL = 'https://backend.botconversa.com.br/api/v1/webhook'
 
+  app.get('/corretor', async (request, reply) => {
+    reply.status(200).send({
+      corretor: {
+        name: 'Corretor xpto',
+      }
+    })
+  })
+
   app.get('/:cellphone', async (request, reply) => {
     const getParamsSchema = z.object({
       cellphone: z.string(),

@@ -2,11 +2,11 @@
 
 - [x] deve ser possível criar um usuário do tipo corretor
 - [x] deve ser possível criar um usuário do tipo admin
-- [] deve ser possivel alterar status do usuário
-- [] deve ser possivel realizar uma integração com a api do botconversa
-- [] deve ser possivel relizar o cadastro de números na api do botconversa
-- [] deve ser possivel listar todos os contatos cadastrados
-- [] deve ser possível recuperar um contato pelo número de telefone
+- subir uma lista de contatos
+- ligar e desligar disparo
+- vizualizar quem ja foi enviado
+- enviar para os corretores
+- quando enviar o contato para o corretor, deve ser gerado um lead no l2b
 
 
 # RN

@@ -26,8 +26,6 @@ export async function accountsRoutes(app: FastifyInstance) {
 
     const passwordMatch = await compare(password, user.password)
 
-    console.log(passwordMatch)
-
     if (!passwordMatch) {
       return reply.status(404).send({
         type: 'error',
@@ -45,6 +43,7 @@ export async function accountsRoutes(app: FastifyInstance) {
       user: {
         name: user.name,
         email: user.email,
+        cellphone: user.cellphone
       },
     }
   })
