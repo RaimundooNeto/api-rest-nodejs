@@ -1,12 +1,15 @@
 # RF
 
-[x] O usuário deve poder criar uma nova transação;
-[x] O usuário deve poder obter um resumo da sua conta;
-[x] O usuário deve poder listar todas as transações que já ocorreram;
-[x] O usuário deve poder visualizar uma transação única
+- [x] deve ser possível criar um usuário do tipo corretor
+- [x] deve ser possível criar um usuário do tipo admin
+- [] deve ser possivel alterar status do usuário
+- [] deve ser possivel realizar uma integração com a api do botconversa
+- [] deve ser possivel relizar o cadastro de números na api do botconversa
+- [] deve ser possivel listar todos os contatos cadastrados
+- [] deve ser possível recuperar um contato pelo número de telefone
+
 
 # RN
 
-[x] A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá;
-[x] Deve ser possivel identidicarmos o usuário entre as requisições;
-[x] O usuário so pode visualizar transações o qual ele criou;
+- O usuario admin pode alterar o status do usuario corretor
+- O usuário corretor so pode alterar seu propio status

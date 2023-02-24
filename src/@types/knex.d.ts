@@ -10,5 +10,15 @@ declare module 'knex/types/tables' {
       created_at: string
       session_id?: string
     }
+    accounts: {
+      id: string
+      name: string
+      email: string
+      cellphone: string
+      password: string
+      is_admin: boolean
+      is_online: boolean
+      created_at: string
+    }
   }
 }
